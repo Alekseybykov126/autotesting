@@ -1,0 +1,7 @@
+from selenium import webdriver
+base_url = "https://www.google.ru"
+#driver=webdriver.Chrome(executable_path="C:/D/PyWorkspace/amazon/drivers/chromedriver.exe")
+driver.maximize_window()
+driver.implicitly_wait(10)
+driver.get(base_url)
+driver.close()
