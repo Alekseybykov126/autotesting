@@ -4,9 +4,9 @@ from selenium import webdriver
 
 # from Regress_web.test_case_00 import case_00 # Проигрывание рандомных фильмов циклом
 
-#from .test_case_1_1 import case_1_1 # авторизация на матч тв
+from .test_case_1_1 import case_1_1 # авторизация на матч тв
 
-#from .test_case_1_2 import case_1_2 # проверка работы прямого эфира
+from .test_case_1_2 import case_1_2 # проверка работы прямого эфира
 from .test_case_1_3 import case_1_3 # Проверка наличия коэффициентов фонбет на главной
 #from .test_case_1_4 import case_1_4  # Проверка пополнения личного счета с карты на 1 рубль, авторизация
 
@@ -102,11 +102,11 @@ class Test:
 
         ### 1) Покупка/оплата
 
-    # def test_case_1_1(self):
-    #     case_1_1(self, 0)
+    def test_case_1_1(self):
+        case_1_1(self, 0)
 
-    # def test_case_1_2(self):
-    #     case_1_2(self, 0)
+    def test_case_1_2(self):
+        case_1_2(self, 0)
 
     def test_case_1_3(self):
         case_1_3(self, 0)
