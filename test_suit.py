@@ -3,8 +3,8 @@ from selenium import webdriver
 #from .page import *
 from page import *
 from test_case_1_1 import case_1_1
-from .test_case_1_2 import case_1_2  # проверка работы прямого эфира
-from .test_case_1_3 import case_1_3  # Проверка наличия коэффициентов фонбет на главной
+#from .test_case_1_2 import case_1_2  # проверка работы прямого эфира
+#from .test_case_1_3 import case_1_3  # Проверка наличия коэффициентов фонбет на главной
 
 
 # from Regress_web.test_case_00 import case_00 # Проигрывание рандомных фильмов циклом
@@ -105,11 +105,10 @@ class Test:
     def test_case_1_1(self):
         case_1_1(self, 0)
 
-    def test_case_1_2(self):
-        case_1_2(self, 0)
-
-    def test_case_1_3(self):
-        case_1_3(self, 0)
+    # def test_case_1_2(self):
+    #     case_1_2(self, 0)
+    #
+    # def test_case_1_3(self):
     #     case_1_3(self, 0)
 
     # def test_case_1_3(self):
