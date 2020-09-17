@@ -1,4 +1,4 @@
-from .page import *
+from page import *
 
 def case_1_1(self, full_screen):
 
