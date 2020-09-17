@@ -3,7 +3,7 @@ import unittest
 from selenium.webdriver.chrome import options
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
-from bs4 import BeautifulSoup
+#from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.webdriver import Webdriver
 from selenium.webdriver.support.ui import WebDriverWait
