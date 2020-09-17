@@ -46,7 +46,6 @@ class ResultPage(BasePage):
     def find_link(self, tag_, class_):
         """ Найти подтверждающий элемент
         """
-        page = MainPage(self.driver)
         path = './/ttag[@class="cclass"]'
         path_1 = path.replace('ttag', tag_)
         xpath = path_1.replace('cclass', class_)
