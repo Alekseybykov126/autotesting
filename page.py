@@ -1,4 +1,4 @@
-#import requests
+import requests
 import unittest
 from selenium.webdriver.chrome import options
 from selenium.webdriver.common.action_chains import ActionChains
