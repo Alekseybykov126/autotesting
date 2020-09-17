@@ -1,6 +1,6 @@
 #import requests
 import unittest
-#from selenium.webdriver.chrome import options
+from selenium.webdriver.chrome import options
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium import webdriver
 from bs4 import BeautifulSoup
