@@ -1,6 +1,8 @@
-# from webdriver_manager.chrome import ChromeDriverManager
+#from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
+from .page import *
 
+from .test_case_1_1 import case_1_1
 from .test_case_1_2 import case_1_2  # проверка работы прямого эфира
 from .test_case_1_3 import case_1_3  # Проверка наличия коэффициентов фонбет на главной
 
@@ -83,11 +85,11 @@ class Test:
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
         self.full_screen = 0
-        self.page = page.MainPage(self.driver)
-        self.result = page.ResultPage(self.driver)
-        self.prof = page.Profile(self.driver)
-        self.admin = page.Admin(self.driver)
-        self.card = page.CardFilm(self.driver)
+        # self.page = page.MainPage(self.driver)
+        # self.result = page.ResultPage(self.driver)
+        # self.prof = page.Profile(self.driver)
+        #self.admin = page.Admin(self.driver)
+        #self.card = page.CardFilm(self.driver)
 
         # def teardown(self):
         #     self.driver.close()
@@ -101,7 +103,7 @@ class Test:
         ### 1) Покупка/оплата
 
     def test_case_1_1(self):
-        test_case_1_1.case_1_1(self, 0)
+        case_1_1(self, 0)
 
     def test_case_1_2(self):
         case_1_2(self, 0)
