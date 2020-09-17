@@ -1,13 +1,11 @@
 # from webdriver_manager.chrome import ChromeDriverManager
-import page
 from selenium import webdriver
 
+from .test_case_1_2 import case_1_2  # проверка работы прямого эфира
+from .test_case_1_3 import case_1_3  # Проверка наличия коэффициентов фонбет на главной
+
+
 # from Regress_web.test_case_00 import case_00 # Проигрывание рандомных фильмов циклом
-
-import test_case_1_1
-
-from .test_case_1_2 import case_1_2 # проверка работы прямого эфира
-from .test_case_1_3 import case_1_3 # Проверка наличия коэффициентов фонбет на главной
 #from .test_case_1_4 import case_1_4  # Проверка пополнения личного счета с карты на 1 рубль, авторизация
 
 
