@@ -15,7 +15,7 @@ import logging
 #from .page import *
 #import pyautogui
 from selenium.webdriver.support.select import Select
-import pytest
+#import pytest
 from selenium.webdriver.remote.command import Command
 import time
 from selenium import webdriver
