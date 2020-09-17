@@ -1,6 +1,6 @@
 #from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
-from .page import *
+from page import *
 
 from .test_case_1_1 import case_1_1
 from .test_case_1_2 import case_1_2  # проверка работы прямого эфира
@@ -87,7 +87,7 @@ class Test:
         self.full_screen = 0
         # self.page = page.MainPage(self.driver)
         # self.result = page.ResultPage(self.driver)
-        # self.prof = page.Profile(self.driver)
+        # self.prof = page.Profile(self.driver)ma
         #self.admin = page.Admin(self.driver)
         #self.card = page.CardFilm(self.driver)
 
