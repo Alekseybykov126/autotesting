@@ -1,6 +1,6 @@
 #from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
-from page import *
+from .page import *
 
 from .test_case_1_1 import case_1_1
 from .test_case_1_2 import case_1_2  # проверка работы прямого эфира
